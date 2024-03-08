@@ -60,7 +60,7 @@ const checkCards = () => {
 
             firstCard = '';
             secondCard = '';
-        },400);
+        },600);
       
     }
 
@@ -127,6 +127,7 @@ window.onload = () => {
 
     spanPlayer.innerHTML = localStorage.getItem('player');
     startTimer();
+    
     loadGame();
 }
 
