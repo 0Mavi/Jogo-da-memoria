@@ -31,7 +31,7 @@ const checkEndGame = () => {
        clearInterval(this.loop);
         setTimeout (()=> {
             
-            alert(`Parabéns, ${spanPlayer}! Seu tempo foi: ${timer.innerHTML}`);
+            alert(`Parabéns ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
 
         },100);
     
